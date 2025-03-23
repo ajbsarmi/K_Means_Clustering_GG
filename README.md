@@ -77,20 +77,28 @@ Below is a detailed explanation of each step in the clustering process:
 ## How to Run
 
 1. **Prerequisites:**
-   - Apache Spark with PySpark installed
+   - [Conda](https://docs.conda.io/en/latest/) installed on your system
+   - Apache Spark with PySpark installed (handled by the Conda environment)
    - Python 3.x
-   - Required libraries: `pyspark`, `matplotlib`
 
 2. **Setup:**
-   - Place `seeds_dataset.csv` in the appropriate directory (as referenced in the code).
-   - Install all necessary dependencies.
+   - Clone the repository and navigate to the project directory.
+   - Place `seeds_dataset.csv` in the appropriate directory as referenced in the code.
 
 3. **Execution:**
-   - Run the clustering script using:
+   - **Create the Conda Environment:**  
+     Use the provided `environment.yml` file to create and activate the environment:
+     ```bash
+     conda env create -f environment.yml
+     conda activate k_means_clus_gg
+     ```
+   - **Run the Clustering Script:**  
+     Execute the clustering script with Spark:
      ```bash
      spark-submit K_Means_Clustering.py
      ```
-   - The script will load and process the data, train the K-Means model, display the cluster centers, and plot silhouette scores for model evaluation.
+   - The script will load and process the data, train the K-Means model, display the cluster centers, and plot the silhouette scores for model evaluation.
+
 
 ## Contributing
 
