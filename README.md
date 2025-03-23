@@ -18,7 +18,7 @@ This repository demonstrates a complete end-to-end machine learning pipeline usi
 
 ## File Structure
 
-- **`K_Means_Clustering.py`**: The main Python script that implements the clustering pipeline using PySpark.
+- **`K_Means_Clustering.ipynb`**: The main Python notebook that implements the clustering pipeline using PySpark.
 - **`seeds_dataset.csv`**: The dataset file containing measurements of wheat kernels.
 - **`image.png`**: (Optional) An image of the mind map illustrating the clustering process.
 
