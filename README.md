@@ -96,10 +96,6 @@ Below is a detailed explanation of each step in the clustering process:
 
 Contributions, bug reports, and suggestions are welcome! Please open an issue or submit a pull request to contribute to this project.
 
-## License
-
-[Include your license information here.]
-
 ## Acknowledgments
 
 - **UCI Machine Learning Repository** for the Seeds dataset.
