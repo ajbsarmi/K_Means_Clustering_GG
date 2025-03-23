@@ -106,5 +106,8 @@ Contributions, bug reports, and suggestions are welcome! Please open an issue or
 
 ## Acknowledgments
 
+## Acknowledgments
+
 - **UCI Machine Learning Repository** for the Seeds dataset.
-- **PySpark Documentation** for the extensive examples and resources.
+- **PySpark Documentation** for excellent resources and examples.
+- **Geeks for Geeks** for the tutorial ["K-Means Clustering using PySpark Python"](https://www.geeksforgeeks.org/k-means-clustering-using-pyspark-python/), which provided guidance on implementing the clustering process.
