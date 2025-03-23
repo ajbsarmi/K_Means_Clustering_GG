@@ -7,11 +7,65 @@
         <mxCell id="Kbvf4Ak4PelRT8r8r1_U-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-1" target="Kbvf4Ak4PelRT8r8r1_U-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-1" value="Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-1" value="Data Ingestion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-4" value="Exploratory Data Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-4" target="Kbvf4Ak4PelRT8r8r1_U-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-4" value="Exploratory Data Analysis (EDA)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-6" target="Kbvf4Ak4PelRT8r8r1_U-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-6" value="Data Preprocessing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-8" target="Kbvf4Ak4PelRT8r8r1_U-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-8" value="Feature Selection" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-10" target="Kbvf4Ak4PelRT8r8r1_U-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-10" value="Vectorization" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-12" target="Kbvf4Ak4PelRT8r8r1_U-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-12" value="Feature Scaling" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-14" target="Kbvf4Ak4PelRT8r8r1_U-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-14" value="Model Selection / Hyperparameter Tuning" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-20" target="Kbvf4Ak4PelRT8r8r1_U-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-20" value="Train K-Means Model" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-22" target="Kbvf4Ak4PelRT8r8r1_U-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-22" value="Generate Predictions" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kbvf4Ak4PelRT8r8r1_U-24" target="Kbvf4Ak4PelRT8r8r1_U-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-24" value="Evaluation &amp;amp; Visualization" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbvf4Ak4PelRT8r8r1_U-26" value="&lt;div&gt;Deployment / Next Steps&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
