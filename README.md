@@ -22,29 +22,8 @@ This repository demonstrates a complete end-to-end machine learning pipeline usi
 - **`seeds_dataset.csv`**: The dataset file containing measurements of wheat kernels.
 - **`image.png`**: (Optional) An image of the mind map illustrating the clustering process.
 
-## Clustering Process Mind Map
+## Clustering Steps
 
-Data Ingestion ├── Load data from source (CSV, Parquet, etc.) └── Verify schema and data types
-
-Exploratory Data Analysis (EDA) ├── Inspect basic statistics (describe, summary) ├── Check for missing/invalid values └── Visualize distributions
-
-Data Preprocessing ├── Handle missing or invalid values (drop, impute, etc.) └── Feature engineering or transformation
-
-Feature Selection ├── Identify relevant columns for clustering └── Drop unnecessary columns
-
-Vectorization └── Use VectorAssembler to combine features into a single vector column ("features")
-
-Feature Scaling └── Use StandardScaler to normalize features (output: "scaledFeatures")
-
-Model Selection / Hyperparameter Tuning ├── Decide on number of clusters (k) │ ├── Use Silhouette Score or Elbow Method │ └── Evaluate different k values └── Choose best k based on evaluation metric
-
-Train K-Means Model ├── Instantiate K-Means with chosen k └── Fit on scaled features
-
-Generate Predictions ├── Use model.transform() to get cluster assignments └── Inspect or save predictions
-
-Evaluation & Visualization ├── Evaluate cluster quality (e.g., Silhouette Score) ├── (Optional) Visualize clusters (2D/3D using PCA) └── Interpret cluster centers
-
-Deployment / Next Steps ├── Persist the model for production use ├── Integrate into data pipelines └── Communicate results and finding
 
 
 ## How to Run
